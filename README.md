@@ -37,12 +37,12 @@ pip install -r requirements.txt
 
 ### Run tests with Python runner (default):
 ```bash
-python3 compiler-testing-example/test.sh
+python3 test.sh
 ```
 
 ### Run tests with JavaScript runner:
 ```bash
-python3 compiler-testing-example/test.sh js
+python3 test.sh js
 ```
 
 - The script will print a green message if all tests pass, or a red, GitHub-issue-style table if there are divergences.
