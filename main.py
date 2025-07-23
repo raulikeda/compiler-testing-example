@@ -10,3 +10,5 @@ if __name__ == "__main__":
     # Use exec to execute the code and call is_prime(7) if present
     namespace = {}
     exec(code, namespace)
+    #raise Exception("This is a test exception")
+    #print(1)
